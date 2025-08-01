@@ -1,0 +1,101 @@
+categories:
+  - name: SkySuites Platform–Related Questions
+    questions:
+      - question: 🏢 What is SkySuites?
+        answer: SkySuites is a SaaS-based Online Travel Agency (OTA) platform for travel agents. ✈️🏨🚗 It allows flight, hotel, and car bookings, integrated with ERP 🧾 and AI 🤖 automation.
+      - question: 🚀 How is SkySuites different from other platforms?
+        answer: SkySuites offers full automation using AI 🤖, QR integration 📲, biometric login 🧬, role-based dashboards 📊, real-time API connections 🔌, and ERP-linked accounting 📘.
+      - question: 🧾 How can I access the ERP system from SkySuites?
+        answer: From your profile section 👤, click "Open ERP (TRAVEL)" 🔓. It will redirect you to the ERP login screen.
+      - question: 🧬 Does SkySuites support biometric login?
+        answer: ✅ Yes. After your first login 🔑, Face ID or Touch ID will be used if supported by your device 📱.
+      - question: 📲 What is the difference between Booking App and Payment App?
+        answer: The Booking App 📘 handles all bookings and agency functions, while the Payment App (SkySuitesPay) 💳 is used for payments via loyalty points 🎯, cards 💳, or account credits 💼.
+
+  - name: Flights–Related Questions
+    questions:
+      - question: ✈️ How do I book a one-way flight?
+        answer: Click “Flights” ✈️ on the navbar, select “One Way” 🔁, enter cities 🌍, travel date 📅, and passengers 👤, then click 🔍 Search.
+      - question: 🕓 Can I hold a flight ticket without paying?
+        answer: Yes ✅. Use the “Hold” ⏸️ button during booking to reserve the ticket without payment 💳.
+      - question: 🔌 Which APIs are supported for flight booking?
+        answer: SkySuites supports APIs like TDS and Amadeus 🌐. Availability depends on admin settings ⚙️.
+      - question: 📥 Can I view held tickets later?
+        answer: Yes 🗂️. Go to “Hold Tickets” 📋 in your profile to view or confirm reservations.
+      - question: ❗ What happens if I enter incorrect passenger details?
+        answer: SkySuites AI 🤖 will flag incorrect data ⚠️ and suggest corrections 🛠️ per airline policy 🛫 to avoid ADM fees 💰.
+      - question: 💸 How can I find the cheapest flight?
+        answer: After search 🔍, SkySuites auto-sorts flights ✈️ by cheapest 💰, fastest ⚡, or recommended ⭐.
+
+  - name: Hotels–Related Questions
+    questions:
+      - question: 🏨 How do I book a hotel?
+        answer: Click “Hotels” 🏨, enter check-in/out dates 📆, city 🌇, number of rooms 🛏️, and guests 👥, then click Search 🔍.
+      - question: ♨️ Can I add extra services like spa or pool?
+        answer: Yes ✅. After room selection 🛌, add services like spa 💆 or pool 🏊 on the booking page 📄.
+      - question: ⭐ Can I search by hotel star rating?
+        answer: Yes 🌟. Use filters 🧰 after search to sort by rating ⭐, amenities 🧴, or price 💰.
+      - question: 🖼️ Can I see images of the hotel before booking?
+        answer: Absolutely 📷. The hotel detail page includes photos 🏙️, amenities 🧴, and room types 🛏️.
+
+  - name: Cars–Related Questions
+    questions:
+      - question: 🚗 How do I book a rental car?
+        answer: Click on “Cars” 🚘, select pickup/drop-off locations 📍, dates 📅, and times ⏰, then click Search 🔍.
+      - question: 🧾 Do I need to select additional options like driver or insurance?
+        answer: No ❌. Just choose the car 🚗 and confirm ✅. Insurance or driver 🚘 info depends on suppliers 🧾.
+      - question: ✅ Are car rentals confirmed immediately?
+        answer: Yes ✅. Car bookings 🚗 are confirmed instantly ⏱️ unless there’s an API delay 🌐.
+
+  - name: Booking Scenarios & Troubleshooting
+    questions:
+      - question: 📝 I booked a ticket but entered the wrong name. What should I do?
+        answer: Use the AI Chatbot 🤖 or contact Support 🛎️. Name corrections 📝 may require reissue and fees 💵.
+      - question: 🔄 How can I reissue a ticket?
+        answer: Use the Reissue tab 🔁 in your profile or contact Support 📞. Admin approval may be needed ✔️.
+      - question: ❌ Can I cancel a flight or hotel booking?
+        answer: Yes ✅. Use the refund 🔙 option. Refunds take 1–2 days 🕒 after admin and API checks 🔎.
+      - question: 💳 What if my payment fails?
+        answer: After 3 failed attempts ❌, a system prompt 📢 and email 📧 are sent. Try another method 💳 or contact Support 🛎️.
+      - question: ⏸️ What does the “Hold” button do?
+        answer: It temporarily reserves bookings 📋 without ticketing 🎫. Ideal when payment is delayed ⏳.
+      - question: 🏆 When do I earn loyalty points?
+        answer: Loyalty points 🎯 are credited after successful payment 💰. 500 SAR = 1 point 📈.
+
+  - name: Payments & Loyalty Points
+    questions:
+      - question: 💰 What payment methods are available?
+        answer: Stripe 💳, Payfast 🏦, Google Pay 📱, Apple Pay 🍎, Tabi 💼, Loyalty Points 🎯, and Account Credit 💳.
+      - question: 🧾 Can I recharge my account?
+        answer: Yes ✅. Go to Profile 👤 > Recharge Account 🔄 and submit via card 💳, cheque 🧾, or transfer 💵.
+      - question: 🎯 How do loyalty points work?
+        answer: Earn 1 point 🎯 per 500 SAR 💸. Use points in the SkySuitesPay app 💼 during payment.
+      - question: 👥 Can loyalty points be shared among agents?
+        answer: No ❌. Points are agent-specific 👤 and non-transferable 🔒.
+
+  - name: Support & Chatbot Questions
+    questions:
+      - question: 🛎️ How do I contact customer support?
+        answer: Click the Support icon 💬, start a chat 📲, upload documents 📎, and wait for help 🤝.
+      - question: 📞 Can I talk to the AI bot on call?
+        answer: Yes ✅. Our AI voice agent 🤖📞 can help or escalate to a human agent 🙋‍♂️.
+      - question: 🤖 What’s the Suggestion Bot for?
+        answer: It checks booking inputs 🔍 to prevent violations ⚠️ like name mismatches ❗and avoids ADM penalties 💼.
+
+  - name: Language & Settings
+    questions:
+      - question: 🌐 Can I change the language?
+        answer: Yes ✅. Toggle language 🌍 from the navbar to switch between English 🇬🇧 and Arabic 🇸🇦.
+      - question: 🔐 Can I reset my password?
+        answer: Go to Profile 👤 > Change Password 🔒. Enter current and new password 📝, then save 💾.
+      - question: 🧬 Can I use biometric login?
+        answer: Yes ✅. After initial login, enable Face ID or Touch ID 🧬 from Profile Settings ⚙️ for secure access 🔐.
+
+  - name: Miscellaneous Operational Questions
+    questions:
+      - question: ⏱️ What’s the session timeout?
+        answer: The session expires after 15 minutes ⏳ of inactivity. Re-login 🔐 or use PIN/Fingerprint 🔓.
+      - question: 📊 How can I check top agents’ performance?
+        answer: Go to Dashboard > Agent Wise 📈 tab for agent stats 📊 and product-wise performance 🧮.
+      - question: 📈 How do I generate daily sales reports?
+        answer: Visit Profile > Daily Sales Report 📅. Select filters 🔎 and export as Excel 📊 or PDF 📄.
