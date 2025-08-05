@@ -109,7 +109,7 @@ async def websocket_endpoint(websocket: WebSocket):
  
 faq = {}
 
-def load_faq_from_yaml(path=r"C:\Users\PMLS\OneDrive\Desktop\SkySuites Agent\vector_store\queries.yaml"):
+def load_faq_from_yaml(path=r"vector_store/queries.yaml"):
     global faq
     with open(path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
